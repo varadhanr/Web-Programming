@@ -1,0 +1,42 @@
+
+
+body {
+	background-color:#B0E0E6;
+}
+a:link {
+	text-decoration:none; color:#000000
+}
+a:visited {
+	text-decoration:none; color:#000000
+}
+a:hover {
+	text-decoration:blink; color:#000000
+}
+a:active {
+	text-decoration:none; color:#000000
+	}
+.black {color:#000000;}
+.blue {color:#2692E0;}	
+#menu
+{    
+position:relative;
+left:350px;
+margin-top: 5px;
+padding-top: 100px;
+}
+
+#menu li
+{   margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+#menu li a
+{   display: block;
+	margin: 0 1px 0 0;
+    padding: 4px 10px;
+    width: 150px;
+    background: #bbbaaa;
+    color: #ffffff;
+    text-align:left;
+}
