@@ -1,7 +1,14 @@
-
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
 body {
-	background-color:#B0E0E6;
+	background: url(back6.jpg) top center  ;
 }
 a:link {
 	text-decoration:none; color:#000000
@@ -20,9 +27,9 @@ a:active {
 #menu
 {    
 position:relative;
-left:350px;
-margin-top: 5px;
-padding-top: 100px;
+left:300px;
+
+padding-top: 50px;
 }
 
 #menu li
@@ -36,7 +43,12 @@ padding-top: 100px;
 	margin: 0 1px 0 0;
     padding: 4px 10px;
     width: 150px;
-    background: #bbbaaa;
+    background: #656565;
     color: #ffffff;
     text-align:left;
+}
+#menu li a:hover
+{
+	background:#B87171;
+
 }

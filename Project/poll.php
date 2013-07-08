@@ -63,6 +63,10 @@ $totalRows_rs_vote = mysql_num_rows($rs_vote);
 <html >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="icon" 
+			type="image/jpg" 
+			href="logo.jpg" />
+			
 <title>Poll</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -101,7 +105,7 @@ $totalRows_rs_vote = mysql_num_rows($rs_vote);
 	</label>
 
     <input type="submit" name="submit" id="submit" value="Vote" />
-    
+    <a href='index.php'>back to homePage</a>
 	<input type="hidden" name="id" value="form1" />
 	
 	<input type="hidden" name="MM_insert" value="form1" />

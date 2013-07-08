@@ -72,10 +72,18 @@ $right_Move2 ='<a href="index.php?id=1">Oldest Article >></a>';
 ?>
 
 <html >
+<meta property="fb:admins"          content="100003616296047" /> 
+<meta property="og:type"            content="website" /> 
+<meta property="og:url"             content="http://varu.ap01.aws.af.cm/" /> 
+<meta property="og:title"           content="Writer's Blog-Dare to Read" /> 
+<meta property="og:image"           content="http://smartmobilestudio.com/wp-content/uploads/2012/06/leather-book-preview.png" /> 
+<meta property="og:description"            content="A Write's Blog" /> 
+
 <head>
+
 <link rel="icon" 
-			type="image/png" 
-			href="favicon.ico" />
+			type="image/jpg" 
+			href="logo.jpg" />
 			<title>Writer's Blog-Dare to Read</title>
 <link href="style/main.css" rel="stylesheet" type="text/css" />
 <title><?php 
@@ -93,36 +101,54 @@ print"$title"; ?></title>
 </head>
 
 <body leftmargin="0">
+<div id="content">
+    <img src=final1.png />
+</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <font face="Arial, Helvetica, sans-serif">
 <div align="center">
 
 
-<table width="650" >
+<table width="400" align=center >
 <tr>
-<td colspan="5" >
-  <span class="style1"><?php 
+<td colspan="5" align=center >
+  <span class="style1"><font face=verdana><?php 
 
-  print"$title"; ?><br />
+  print"$title"; ?></font><br />
   </span>
+  <tr>
+ <td colspan=5 align=left>
   <span class="style3"><?php
 
    print"$date"; ?>
   </span><p></p></td>
 </tr>
-
 <tr>
-<td colspan="5">
-  <p><span class="style6"><?php 
-  print"$contents"; ?>
+<td colspan="5" align=center>
+<img src="images/divide.png" /><br /><br /></td>
+</tr>
+<tr>
+<tr>
+<td colspan="5" >
+  <p><span class="style4"><font face='verdana'><?php 
+  print"$contents"; ?></font>
   </span></p></td>
 </tr>
 <tr>
-<td colspan="5">
-  <p><span class="style5"><?php 
-//This printsthe article's author.
-  print"$author"; ?>
+<td colspan="5" align=left>
+  <p><span class="style5"><font face='verdana'><?php 
+ print"$author"; ?></font>
   </span></p></td>
 </tr>
+<tr>
+<td colspan=5 align=left><div class="fb-like" data-href="http://varu.ap01.aws.af.cm" data-send="false" data-width="450" data-show-faces="true"></div>
 <tr>
 <td colspan="5" >
 <img src="images/divide.png" /><br /><br /></td>
@@ -146,10 +172,12 @@ print"$right_Move2"; ?></span><br /><br /></td>
 </table>
 </div>
 </font>
+
 <ul id=menu>
-<li><a href="create.php">Create</a></li>
-<li><a href="About.php">About</a></li>
-<li><a href="All.php">All Entries</a></li>
-<li><a href="poll.php">Poll Vote</a></li>
+
+<li><a href="About.php"><font face=verdana>About</font></a></li>
+<li><a href="All.php"><font face=verdana>All Entries</font></a></li>
+<li><a href="poll.php"><font face=verdana>Poll Archives</font></a></li>
+<li><a href="video.php"><font face=verdana>Videos</font></a></li>
 </body>
 </html>
