@@ -1,4 +1,0 @@
-PROJECT
-=======
-
-A BLOG
